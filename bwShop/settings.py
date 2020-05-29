@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'coreschema',
-    'DjangoUeditor'
+    'DjangoUeditor',
+    'social_django'
 
 ]
 
@@ -58,6 +59,10 @@ REST_FRAMEWORK = {
 
 AUTHENTICATION_BACKENDS = (
     'users.views.CustomBackend',
+    'social_core.backends.weibo.WeiboOAuth2',
+    'social_core.backends.weixin.WeixinOAuth2',
+    'social_core.backends.qq.QQOAuth2',
+    'django.contrib.auth.backends.ModelBackend'
 )
 
 import datetime
@@ -99,6 +104,9 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                # 第三方登录
+                'social_django.context_processors.backends',
+                'social_django.context_processors.login_redirect'
             ],
         },
     },
@@ -170,3 +178,9 @@ MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 # 支付宝相关的key
 private_key_path = os.path.join(BASE_DIR, 'apps/trade/keys/private_2048.txt')
 ali_pub_key_path = os.path.join(BASE_DIR, 'apps/trade/keys/alipay_key_2048.txt')
+
+
+# 第三方登录
+SOCIAL_AUTH_WEIBO_KEY = '3485941678'
+SOCIAL_AUTH_WEIBO_SECRET = 'eb0d4bdd73c9e03372d54377e53eb42e'
+SOCIAL_AUTH_LOGIN_REDIRECT_URL = '/index/'

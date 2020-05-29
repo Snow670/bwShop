@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07a0b322-c084-402e-9d03-cb9e1a54cf1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/utils/alipay.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/trade/keys/应用公钥2048.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/trade/keys/应用私钥2048.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/trade/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/trade/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/trade/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/trade/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bwShop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bwShop/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bwShop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bwShop/urls.py" afterDir="false" />
     </list>
@@ -29,36 +22,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bwShop/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1610">
+              <caret line="184" column="60" selection-start-line="184" selection-start-column="60" selection-end-line="184" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bwShop/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+            <state relative-caret-position="434">
+              <caret line="48" column="63" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="63" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/trade/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-513">
-              <caret line="139" column="37" lean-forward="true" selection-start-line="139" selection-start-column="37" selection-end-line="139" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/trade/serializers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2050">
-              <caret line="82" column="48" lean-forward="true" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="48" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,15 +88,15 @@
         <option value="$PROJECT_DIR$/apps/trade/keys/alipay_key_2048.txt" />
         <option value="$PROJECT_DIR$/apps/trade/keys/private_2048.txt" />
         <option value="$PROJECT_DIR$/apps/trade/keys/public_2048.txt" />
-        <option value="$PROJECT_DIR$/bwShop/settings.py" />
         <option value="$PROJECT_DIR$/apps/utils/alipay.py" />
         <option value="$PROJECT_DIR$/apps/trade/views.py" />
         <option value="$PROJECT_DIR$/apps/trade/serializers.py" />
         <option value="$PROJECT_DIR$/bwShop/urls.py" />
+        <option value="$PROJECT_DIR$/bwShop/settings.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="316" />
     <option name="width" value="1053" />
     <option name="height" value="757" />
@@ -138,18 +119,6 @@
               <item name="bwShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="bwShop" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bwShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bwShop" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="trade" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bwShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bwShop" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bwShop" type="b2602c69:ProjectViewProjectNode" />
@@ -192,7 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.alipay">
+  <component name="RunManager" selected="Django server.bwShop">
     <configuration name="alipay" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="bwShop" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -302,30 +271,29 @@
       <option name="presentableId" value="Default" />
       <updated>1590649332004</updated>
       <workItem from="1590649419579" duration="13436000" />
-      <workItem from="1590712690860" duration="22505000" />
+      <workItem from="1590712690860" duration="25266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35941000" />
+    <option name="totallyTimeSpent" value="38702000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="316" y="0" width="1053" height="757" extended-state="1" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16717096" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2225579" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="manage.py@bwShop" order="0" weight="0.5420099" />
+      <window_info anchor="bottom" id="manage.py@bwShop" order="0" weight="0.5409836" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.30658105" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3065574" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Python Console" order="5" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.25245902" />
+      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.24719101" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -341,16 +309,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/trade/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/trade/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -622,16 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bwShop/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="171" column="80" selection-start-line="171" selection-start-column="80" selection-end-line="171" selection-end-column="80" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/trade/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-513">
@@ -654,10 +602,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bwShop/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+        <state relative-caret-position="434">
+          <caret line="48" column="63" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="63" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/social_core/actions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="101" column="28" lean-forward="true" selection-start-line="101" selection-start-column="28" selection-end-line="101" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bwShop/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1610">
+          <caret line="184" column="60" selection-start-line="184" selection-start-column="60" selection-end-line="184" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
