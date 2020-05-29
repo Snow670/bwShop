@@ -1,4 +1,6 @@
-from django.urls import path,include
+from django.conf.urls import url
+from django.urls import path, include
+from django.views.generic import TemplateView
 from django.views.static import serve
 
 import xadmin
@@ -12,7 +14,7 @@ from bwShop.settings import MEDIA_ROOT
 from goods.views import GoodsListViewSet, CategoryViewSet, BannerViewset, IndexCategoryViewset
 from users.views import SmsCodeViewset,UserViewset
 from user_operation.views import UserFavViewset, LeavingMessageViewset, AddressViewset
-from trade.views import ShoppingCartViewset,OrderViewset
+from trade.views import ShoppingCartViewset, OrderViewset,AlipayView
 
 router = routers.DefaultRouter()
 router.register('goods',GoodsListViewSet)
@@ -42,5 +44,6 @@ urlpatterns = [
     path('login/', obtain_jwt_token ),
     path('api-auth/',include('rest_framework.urls')),
     path('docs/',include_docs_urls(title='生鲜项目的文档')),
-    path('schema/',schema_view)
+    path('schema/',schema_view),
+    path('alipay/return/', AlipayView.as_view()),
 ]
