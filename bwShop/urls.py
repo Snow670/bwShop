@@ -30,6 +30,7 @@ router.register('banners',BannerViewset,basename='banners')
 router.register('indexgoods',IndexCategoryViewset,basename='indexgoods')
 
 
+
 schema_view = get_schema_view(title='corejson')
 
 urlpatterns = [
@@ -45,6 +46,8 @@ urlpatterns = [
     path('api-auth/',include('rest_framework.urls')),
     path('docs/',include_docs_urls(title='生鲜项目的文档')),
     path('schema/',schema_view),
+    #第三方支付
     path('alipay/return/', AlipayView.as_view()),
+    #第三方登录
     path('', include('social_django.urls', namespace='social'))
 ]
